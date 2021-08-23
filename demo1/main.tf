@@ -14,7 +14,7 @@ provider "aws" {
   region = "us-east-2"
 }
 
-resource "aws_instance" "app_server" {
+resource "aws_instance" "app_server_shreehari" {
   ami = "ami-07ffe7b5c785aaac1"
   instance_type="t2.micro"
   
