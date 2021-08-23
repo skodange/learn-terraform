@@ -15,11 +15,11 @@ provider "aws" {
 }
 
 resource "aws_instance" "app_server_shreehari" {
-  ami = "ami-07ffe7b5c785aaac1"
+  ami = "ami-0e356ca0aa33d46d9"
   instance_type="t2.micro"
   
   tags = {
-    name = "Shreehari K"
+    Name = "Shreehari K"
   }
 }
 
