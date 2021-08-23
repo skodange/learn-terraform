@@ -19,7 +19,7 @@ resource "aws_instance" "app_server_shreehari" {
   instance_type="t2.micro"
   
   tags = {
-    Name = "Shreehari K"
+    Name = var.instance_name
   }
 }
 
