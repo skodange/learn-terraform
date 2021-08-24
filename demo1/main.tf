@@ -15,7 +15,7 @@ provider "aws" {
 }
 
 resource "aws_instance" "app_server_shreehari" {
-  ami = "ami-0e356ca0aa33d46d9"
+  ami = "ami-0279406e0655775be"
   instance_type="t2.micro"
   
   tags = {
